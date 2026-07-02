@@ -13,7 +13,7 @@
 
 ```yaml
 name       : Léopold
-location   : Estonia 🇪🇪
+location   : Canada 🇨🇦
 role       : AI Software Engineer in the Making
 
 interests  :
