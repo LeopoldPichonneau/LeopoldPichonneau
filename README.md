@@ -15,6 +15,7 @@
 name       : Léopold
 location   : Canada 🇨🇦
 role       : AI Software Engineer in the Making
+status     : One segmentation fault away from greatness
 
 interests  :
   - Artificial Intelligence
@@ -22,7 +23,7 @@ interests  :
   - Scalable Architecture
   - Product Development
 
-status     : One segmentation fault away from greatness
+
 ```
 
 ## 🚀 Meet the CTO
