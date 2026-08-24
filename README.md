@@ -13,7 +13,7 @@
 
 ```yaml
 name       : Léopold
-location   : Canada 🇨🇦
+location   : France 🇫🇷
 role       : AI Software Engineer in the Making
 status     : One segmentation fault away from greatness
 
