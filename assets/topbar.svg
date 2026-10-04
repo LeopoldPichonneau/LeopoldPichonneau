@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="56" viewBox="0 0 790 56" role="img" aria-label="leopold@home ~ $ ./hello --world">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .cur { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0 } }
+    .d { animation: pulse 3s ease-in-out infinite; } @keyframes pulse { 50% { opacity: .35 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="788" height="54" rx="27" fill="#0d0d0d" stroke="#3b3b3b"/>
+  <circle class="d" cx="30" cy="28" r="4" fill="#ff9d6c"/><circle class="d" style="animation-delay:.4s" cx="46" cy="28" r="4" fill="#ff9d6c"/><circle class="d" style="animation-delay:.8s" cx="62" cy="28" r="4" fill="#ff9d6c"/>
+  <text x="86" y="33" font-size="15" fill="#9e9e9e">leopold@home<tspan fill="#ff9d6c"> ~ </tspan><tspan fill="#ff9d6c">$</tspan><tspan fill="#e0e0e0"> ./hello --world</tspan><tspan class="cur" fill="#ff9d6c"> ▋</tspan></text>
+</svg>

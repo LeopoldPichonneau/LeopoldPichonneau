@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-label="whoami terminal">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f1f1f1"/><stop offset="1" stop-color="#f1f1f1"/></linearGradient>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 16px; }
+    .l { opacity: 0; animation: show 18s linear infinite; }
+    @keyframes show { 0% {opacity:0; transform: translateX(-10px)} 2% {opacity:1; transform:none} 90% {opacity:1} 95%,100% {opacity:0} }
+    .p { fill:#d9561a } .c { fill:#d9561a } .k { fill:#d9561a } .v { fill:#121212 } .d { fill:#6b6b6b } .r { fill:#d9561a }
+    .cur { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0 } }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .l { opacity: 1; } }
+  </style>
+  <rect x="1" y="1" width="998" height="328" rx="16" fill="#f8f8f8" stroke="#e0e0e0"/>
+  <path d="M1 17a16 16 0 0 1 16-16h966a16 16 0 0 1 16 16v26H1z" fill="url(#bar)"/>
+  <circle cx="26" cy="22" r="6" fill="#d9561a"/><circle cx="48" cy="22" r="6" fill="#d9561a"/><circle cx="70" cy="22" r="6" fill="#d9561a"/>
+  <text x="500" y="27" text-anchor="middle" class="d" style="font-size:13px">leopold — zsh — 100×24</text>
+
+  <g>
+    <text class="l" style="animation-delay:.2s" x="30" y="78"><tspan class="p">❯</tspan> <tspan class="c">whoami</tspan></text>
+    <text class="l" style="animation-delay:.9s" x="30" y="102"><tspan class="v">Léopold · France 🇫🇷 · AI Software Engineer in the Making</tspan></text>
+
+    <text class="l" style="animation-delay:1.8s" x="30" y="142"><tspan class="p">❯</tspan> <tspan class="c">cat</tspan> <tspan class="v">interests.yml</tspan></text>
+    <text class="l" style="animation-delay:2.5s" x="30" y="166"><tspan class="k">- </tspan><tspan class="v">Artificial Intelligence</tspan></text>
+    <text class="l" style="animation-delay:2.8s" x="30" y="188"><tspan class="k">- </tspan><tspan class="v">Distributed Systems</tspan></text>
+    <text class="l" style="animation-delay:3.1s" x="30" y="210"><tspan class="k">- </tspan><tspan class="v">Scalable Architecture</tspan></text>
+    <text class="l" style="animation-delay:3.4s" x="30" y="232"><tspan class="k">- </tspan><tspan class="v">Product Development</tspan></text>
+
+    <text class="l" style="animation-delay:4.4s" x="30" y="272"><tspan class="p">❯</tspan> <tspan class="c">./greatness</tspan></text>
+    <text class="l" style="animation-delay:5.1s" x="30" y="296"><tspan class="r">Segmentation fault (core dumped)</tspan><tspan class="cur v"> ▋</tspan></text>
+  </g>
+</svg>

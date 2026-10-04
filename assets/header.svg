@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="Léopold Pichonneau — AI Software Engineer in the Making">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0c0c"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff9d6c"/>
+      <stop offset="0.5" stop-color="#ff9d6c"/>
+      <stop offset="1" stop-color="#ff9d6c"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <clipPath id="type"><rect class="reveal" x="190" y="80" height="90" width="0"/></clipPath>
+    <clipPath id="card"><rect width="1000" height="250" rx="22"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .reveal { animation: type 1.8s steps(18, end) .4s forwards; }
+    @keyframes type { to { width: 620px; } }
+    .cursor { animation: move 1.8s steps(18, end) .4s forwards, blink 1s steps(1) 2.2s infinite; }
+    @keyframes move { to { transform: translateX(612px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    .sub { opacity: 0; animation: cycle 12s linear infinite; }
+    @keyframes cycle { 0% {opacity:0; transform: translateY(8px)} 4% {opacity:1; transform: translateY(0)} 30% {opacity:1} 33.3% {opacity:0} 100% {opacity:0} }
+    .a1 { animation: drift1 14s ease-in-out infinite alternate; }
+    .a2 { animation: drift2 17s ease-in-out infinite alternate; }
+    .a3 { animation: drift3 11s ease-in-out infinite alternate; }
+    @keyframes drift1 { to { transform: translate(260px, 60px) } }
+    @keyframes drift2 { to { transform: translate(-300px, -40px) } }
+    @keyframes drift3 { to { transform: translate(-120px, 70px) scale(1.4) } }
+    .fade-in { opacity: 0; animation: fi 1s ease 2.4s forwards; }
+    @keyframes fi { to { opacity: 1 } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .reveal { width: 620px; } .sub:first-of-type { opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="250" fill="url(#bg)"/>
+    <g filter="url(#blur)">
+      <circle class="a1" cx="150" cy="90" r="120" fill="#ff9d6c" fill-opacity="0.25"/>
+      <circle class="a2" cx="800" cy="230" r="140" fill="#ff9d6c" fill-opacity="0.28"/>
+      <circle class="a3" cx="520" cy="60" r="90" fill="#ff9d6c" fill-opacity="0.15"/>
+    </g>
+    <rect width="1000" height="250" fill="url(#grid)"/>
+
+
+    <!-- name -->
+    <g clip-path="url(#type)">
+      <text x="190" y="152" font-size="62" font-weight="800" textLength="620" lengthAdjust="spacingAndGlyphs" fill="url(#ink)">Léopold Pichonneau</text>
+    </g>
+    <rect class="cursor" x="190" y="94" width="10" height="68" rx="2" fill="#ff9d6c"/>
+
+    <!-- rotating subtitle -->
+    <g text-anchor="middle" font-size="22" class="fade-in">
+      <text class="sub" x="500" y="214" fill="#eeeeee" style="animation-delay:2.4s">AI Software Engineer in the Making</text>
+      <text class="sub" x="500" y="214" fill="#eeeeee" style="animation-delay:6.4s">Distributed Systems tinkerer</text>
+      <text class="sub" x="500" y="214" fill="#eeeeee" style="animation-delay:10.4s">Product Builder</text>
+    </g>
+  </g>
+</svg>
