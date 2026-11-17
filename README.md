@@ -24,7 +24,10 @@
 
 <p align="center">
   <a href="https://github.com/LeopoldPichonneau/IntelliWood"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/project-intelliwood.svg"><img src="assets/project-intelliwood.svg" alt="IntelliWood — IoT monitoring for wood granule heating and storage" width="270" /></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/LeopoldPichonneau/Online-Bookstore"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/project-online-bookstore.svg"><img src="assets/project-online-bookstore.svg" alt="Online-Bookstore — distributed systems project" width="270" /></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/LeopoldPichonneau/Online-Bookstore"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/project-online-bookstore.svg"><img src="assets/project-online-bookstore.svg" alt="Online-Bookstore — distributed systems project" width="270" /></picture></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/LeopoldPichonneau/TimeProof"><picture><source media="(prefers-color-scheme: light)" srcset="assets/light/project-timeproof.svg"><img src="assets/project-timeproof.svg" alt="TimeProof — shows who is rewriting history on Wikipedia, with the evidence" width="270" /></picture></a>
 </p>
 
