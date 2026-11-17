@@ -13,7 +13,7 @@
 </h4>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/terminal.svg"><img src="assets/terminal.svg" alt="whoami" width="780" /></picture>
+  <picture><source media="(prefers-color-scheme: light)" srcset="assets/light/terminal.svg?v=2"><img src="assets/terminal.svg?v=2" alt="whoami" width="780" /></picture>
 </p>
 
 <p align="center">
